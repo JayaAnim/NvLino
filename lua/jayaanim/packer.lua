@@ -36,7 +36,6 @@ return require('packer').startup(function(use)
 
 	-- Installed and setup in after/lsp.lua
 	-- use('neovim/nvim-lspconfig')
-	
 	use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v3.x',
@@ -60,7 +59,8 @@ return require('packer').startup(function(use)
 
     use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
 
-
+    use "akinsho/toggleterm.nvim"
 
 
 end)
+
